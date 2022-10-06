@@ -11,6 +11,16 @@ console.log("The original array", arr);
 const revertedArr = arr.reverse();
 console.log("The reverted array", revertedArr);
 
+//OR an alternative solution:
+
+console.log("This is the alternative solution for reverting an array");
+arr1 = [1, 3, 5, 6];
+let newArr = [];
+for (let i = 0; i < arr1.length; i++) {
+  newArr.unshift(arr1[i]);
+}
+console.log("The newArr: ", newArr);
+
 /* EXTRA 2
  Write a piece of code for getting the maximum numerical value from an array.
 */
