@@ -137,6 +137,10 @@ console.log("CarsForRent array after removing the last element", carsForRent);
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
 
+console.log(car.brand, car.model, car.licensePlate);
+
+//OR
+
 console.log(typeof car);
 console.log(typeof car.brand);
 console.log(typeof car.licensePlate);
